@@ -1,4 +1,6 @@
 export default {
   Logon: "/",
-  Register: "/register"
+  Register: "/register",
+  Profile: "/profile",
+  NewIncident: "./incidents/new"
 };
