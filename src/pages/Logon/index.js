@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import RoutesPath from "../../contants/routesPath";
 import "./style.css";
 
-import logoImg from "../../assets/logo.svg";
-import heroesImg from "../../assets/heroes.png";
+import { logoImg, heroesImg } from "../../helper/assetsAccess";
 
 export default function Logon() {
   return (

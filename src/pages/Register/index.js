@@ -1,5 +1,5 @@
 import React from "react";
-import logoImg from "../../assets/logo.svg";
+import { logoImg } from "../../helper/assetsAccess";
 import { Link } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import RoutesPath from "../../contants/routesPath";
