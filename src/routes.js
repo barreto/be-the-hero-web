@@ -7,7 +7,7 @@ export default function Routes(params) {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="./" component={Logon} />
+        <Route path="./" exact component={Logon} />
       </Switch>
     </BrowserRouter>
   );
