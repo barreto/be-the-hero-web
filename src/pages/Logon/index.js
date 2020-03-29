@@ -1,6 +1,7 @@
 import React from "react";
 import { FiLogIn } from "react-icons/fi";
-
+import { Link } from "react-router-dom";
+import RoutesPath from "../../contants/routesPath";
 import "./style.css";
 
 import logoImg from "../../assets/logo.svg";
@@ -17,10 +18,10 @@ export default function Logon() {
           <button className="button" type="submit">
             Entrar
           </button>
-          <a href="/register">
+          <Link to={RoutesPath.Register}>
             <FiLogIn size={16} color="#E02041" />
             Ainda não tenho cadastro
-          </a>
+          </Link>
         </form>
       </section>
       <img src={heroesImg} alt="Heroes" />
