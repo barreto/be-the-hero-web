@@ -18,7 +18,7 @@ export default function Logon() {
           <button className="button" type="submit">
             Entrar
           </button>
-          <Link to={RoutesPath.Register}>
+          <Link to={RoutesPath.Register} className="back-link">
             <FiLogIn size={16} color="#E02041" />
             Ainda não tenho cadastro
           </Link>
