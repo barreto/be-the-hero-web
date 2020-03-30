@@ -1,3 +1,9 @@
+.profile-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
 .profile-container header {
   display: flex;
   align-items: center;
@@ -38,16 +44,16 @@
 
 .profile-container header button {
   width: 60px;
-  border: 1px;
+  border: 1px solid transparent;
   height: 60px;
   margin-left: 16px;
   border-radius: 4px;
   background: transparent;
-  transition: border-color 1s;
+  transition: 250ms;
 }
 
 .profile-container header button:hover {
-  border: 1px solid #cff0ff;
+  border: 1px solid #423e4d;
 }
 
 .profile-container h1 {
@@ -58,6 +64,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 24px;
+  list-style: none;
 }
 
 .profile-container ul li {
